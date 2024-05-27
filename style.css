@@ -6,7 +6,6 @@
     width: 100%;
     position: fixed;
     top: 0;
-    text-align: right;
 
 }
 .nav-bar p {
@@ -15,12 +14,16 @@
 }
  
 .nav-bar {
+    color: white;
+    text-decoration: none;
     list-style-type: none;
-    display: inline-block;
+    display: flex;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
+    justify-content: space-between;
+    
 }
 
 .dropdown-content a {
@@ -30,6 +33,19 @@
     text-decoration: none;
     display: block;
 }
+
+.dropdown-content li {
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-between;
+}
+
 .dropdown {
     position: relative;
     display: inline-block;
