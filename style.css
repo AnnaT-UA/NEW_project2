@@ -1,93 +1,64 @@
-* {
-    margin: 0;
-    box-sizing: border-box;
+/* * {
+  margin: 0;
+} */
+
+.body {
+  position: relative;
 }
 
-.container {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
+.main-img {
+  background-image: url(bi.svg);
+}
+.nav-bar {
+background-color: hsla(0, 0%, 100%, 0.793);  
+width: 100%;
+position: fixed;
+text-align: right;
+
 }
 
 .header {
-    background-color: rgba(87, 87, 109, 0.37);  
-    width: 100%;
-    position: fixed;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    text-align: right;
-
+  background: rgba(0, 0, 0, 0.2);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: "Roboto";
 }
-.runo {
-    color: white;
-    text-align: left;
-}
- 
-.nav-bar {
-    color: white;
-    text-decoration: none;
-    list-style-type: none;
-    display: flex;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    justify-content: space-between;
-    
-}
-
-.dropdown-content a {
-    color: white;
-    text-decoration: none;
-    list-style-type: none;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content li {
-  color: white;
-  text-decoration: none;
-  list-style-type: none;
+.flex {
   display: flex;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
+}
+.justify-between {
   justify-content: space-between;
 }
+.vertical-line {
+  width: 1px;
+  height: 20px;
+  background-color: white;
+}
+.gap-20 {
+  gap: 20px;
+}
+.header-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 25px;
+  
+}
+.header-menu a {
+  list-style: none;
+  color: white;
+  text-decoration: none;
+}
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content a:hover {background-color: #f1f1f1}
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-  
-  }
-  .dropdown li {
-    color: white;
-    list-style-type: none;
-    display: inline-block;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-left: 1px solid #3e8e41;
-  }
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
+}
 
-  .main {
-    display: block;
-  }
-
-.main-txt {
-  text-align: left;
+.icon-socials {
+  gap: 20px;
+  list-style: none;
+  justify-content: space-between;
 }
