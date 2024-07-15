@@ -75,10 +75,14 @@ text-align: right;
   color: hsl(0, 0%, 2%);
 }
 
-.flex-blocks-1 {
+.blocks-1 {
   list-style: none;
 }
 
 .blocks-2 {
   list-style: none;
+}
+
+.block-text {
+  text-align: center;
 }
