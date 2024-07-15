@@ -62,3 +62,23 @@ text-align: right;
   list-style: none;
   justify-content: space-between;
 }
+
+.poptop {
+  font-family: "Roboto";
+}
+
+.pt-menu li {
+  gap: 20px;
+  list-style: none;
+  justify-content: space-between;
+  text-decoration: none;
+  color: hsl(0, 0%, 2%);
+}
+
+.flex-blocks-1 {
+  list-style: none;
+}
+
+.blocks-2 {
+  list-style: none;
+}
